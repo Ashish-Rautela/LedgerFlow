@@ -85,10 +85,7 @@
 
 ## 🚀 Quick Start
 
-### Option 1: Use the Live API (No Setup Required)
-Simply use the base URL: `https://ledgerflow-x3iq.onrender.com/api`
-
-### Option 2: Run Locally
+### Run Locally
 
 #### Prerequisites
 - Node.js (v14 or higher)
@@ -110,30 +107,6 @@ npm start
 
 # Server runs on http://localhost:3000
 # Visit http://localhost:3000 for API documentation
-```
-
-### First API Calls (Using Live API)
-
-```bash
-# 1. Register a user
-curl -X POST https://ledgerflow-x3iq.onrender.com/api/auth/register \
-  -H "Content-Type: application/json" \
-  -d '{"name":"John Doe","email":"john@example.com","password":"secure123"}'
-
-# 2. Login to get JWT token
-curl -X POST https://ledgerflow-x3iq.onrender.com/api/auth/login \
-  -H "Content-Type: application/json" \
-  -d '{"email":"john@example.com","password":"secure123"}'
-# Save the token from response
-
-# 3. Create an account (use token from login)
-curl -X POST https://ledgerflow-x3iq.onrender.com/api/accounts \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN" \
-  -H "Content-Type: application/json"
-
-# 4. Check balance
-curl -X GET https://ledgerflow-x3iq.onrender.com/api/accounts/balance \
-  -H "Authorization: Bearer YOUR_JWT_TOKEN"
 ```
 
 ## 📚 API Reference
@@ -365,20 +338,6 @@ async function example() {
 # Run all tests
 npm test
 ```
-
-## 🚢 Deployment Information
-
-This API is deployed on **Render.com** (free tier) with the following configuration:
-
-- **Platform**: Node.js
-- **Database**: MongoDB Atlas (cloud)
-- **Auto-deploy**: Enabled on push to main branch
-- **Region**: Automatic (closest to users)
-
-### Note for Users
-- The free tier spins down after 15 minutes of inactivity
-- First request after inactivity may take 20-30 seconds to respond
-- Subsequent requests will be fast
 
 
 <div align="center">
