@@ -2,12 +2,9 @@
 
 <div align="center">
   
-  [![Live Demo](https://img.shields.io/badge/Live%20Demo-Render.com-brightgreen?style=for-the-badge&logo=render)](https://ledgerflow-x3iq.onrender.com/)
-  [![API Status](https://img.shields.io/badge/API-Online-success?style=for-the-badge)](https://ledgerflow-x3iq.onrender.com/)
-  
   <h3>A production-ready banking API with ACID compliance, immutable ledger tracking, and enterprise-grade security</h3>
   
-  [Getting Started](#-quick-start) • [API Reference](#-api-reference) • [Live Demo](https://ledgerflow-x3iq.onrender.com/)
+  [Getting Started](#-quick-start)
   
 </div>
 
@@ -22,17 +19,6 @@
 - [Examples](#-code-examples)
 - [Contributing](#-contributing)
 - [License](#-license)
-
-## 🌐 Live API
-
-The API is publicly accessible at: **https://ledgerflow-x3iq.onrender.com/**
-
-### API Base URL
-```
-https://ledgerflow-x3iq.onrender.com/api
-```
-
-> **Note**: This is a free Render.com instance, so it may take a few seconds to wake up if it's been inactive. First request might have a slight delay.
 
 ## ✨ Core Features
 
